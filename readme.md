@@ -20,6 +20,7 @@ npm install (must be in the project directory)
 webdriver-manager is a helper tool to get an instance of a Selenium Server running.
 
 webdriver-manager update
+
 webdriver-manager start
 
 Running Tests
