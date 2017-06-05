@@ -5,10 +5,10 @@ Setup
 ---------
 
 Install Java http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html
+
 Install Node.js https://nodejs.org/en/
 
-Clone repo:
-...
+Clone repo: {repository location}
 
 Install npm to install Protractor globally (in Terminal):
 
