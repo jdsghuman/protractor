@@ -8,21 +8,21 @@ Setup
 
 - Install Node.js [Nodejs download](https://nodejs.org/en/)
 
-- Clone repo: {repository location}
+- <code>Clone repo: `git clone https://github.com/jdsghuman/protractor-example.git`
 
 - Install Protractor globally (from Terminal):
 
-   npm install -g protractor
+   `npm install -g protractor`
 
-- Install dependencies after cloning the report
+- Install project dependencies after cloning the report
 
-   npm install (must be in the project directory in terminal)
+   `npm install` (must be in the project directory in terminal)
 
 - webdriver-manager is a helper tool to get an instance of a Selenium Server running.
 
-   webdriver-manager update
+   `webdriver-manager update`
 
-   webdriver-manager start  --- (not required for current setup)
+   `webdriver-manager start`  --- (not required for current setup)
 
 Running Tests
 ------------
@@ -31,23 +31,23 @@ Note: Run tests from the project directory (navigate to project folder in termin
 
 ### 1. Navigate to project:
 
-e.g. cd shop-disney-tests
+e.g. `cd shop-disney-tests`
 
 ### 2. Start Selenium Server
 
    (Not required since test are setup with Direct Connect)
 
-webdriver-manager Start
+`webdriver-manager start`
 
 ### 3. Start tests in terminal (This command will run all the tests):
 
    Ensure terminal is in the project folder
 
-protractor conf.js
+`protractor conf.js`
 
 ### 4. To run a specific suite
 
-protractor conf.js --suite {suite name}
+`protractor conf.js --suite {suite name}`
 
 Reports
 -----------
@@ -76,6 +76,8 @@ Project Structure
 
          |-- home
              home.spec.js
+
+         |-- product
              product.spec.js
 
       |-- reports
