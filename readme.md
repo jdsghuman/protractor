@@ -57,3 +57,22 @@ HTML reports for Jasmine2 and Protractor include screenshots and pass/skip/failu
 The path where the reports are created is setup in the config file
 
 ./{project folder}/reports/htmlreport/
+
+Project Structure
+-----------------
+
+|-- Project-folder
+  |-- disney-tests
+    |--e2e
+       |-- page-opbjects
+           helper.po.js
+           homepage.po.js
+           mybagpage.po.js
+           orderhistory.po.js
+
+       |-- home
+           home.spec.js
+           product.spec.js
+    
+    |-- reports
+      |-- htmlreport

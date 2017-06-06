@@ -1,7 +1,7 @@
-var Helper = require('../pageobjects/helper.po.js');
-var HomePage = require('../pageobjects/homepage.po.js');
-var MyBagPage = require('../pageobjects/mybagpage.po.js');
-var OrderHistory = require('../pageobjects/orderhistory.po.js');
+var Helper = require('../page-objects/helper.po.js');
+var HomePage = require('../page-objects/homepage.po.js');
+var MyBagPage = require('../page-objects/mybagpage.po.js');
+var OrderHistory = require('../page-objects/orderhistory.po.js');
 
 var homePage = new HomePage(),
 myBagPage = new MyBagPage(),

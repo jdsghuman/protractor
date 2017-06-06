@@ -1,5 +1,5 @@
-var Helper = require('../pageobjects/helper.po.js');
-var ProductDetails = require('../pageobjects/productdetails.po.js');
+var Helper = require('../page-objects/helper.po.js');
+var ProductDetails = require('../page-objects/productdetails.po.js');
 
 var productDetails = new ProductDetails(),
 helper = new Helper();
