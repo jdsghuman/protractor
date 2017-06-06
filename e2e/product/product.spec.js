@@ -4,7 +4,7 @@ var ProductDetails = require('../pageobjects/productdetails.po.js');
 var productDetails = new ProductDetails(),
 helper = new Helper();
 
-describe('Product', function() {
+describe('New Arrivals', function() {
 
   beforeEach(function() {
     browser.get(browser.params.url);
@@ -14,10 +14,12 @@ describe('Product', function() {
 		browser.manage().deleteAllCookies();
 	});
 
-  it('should navigate to the product detail page', function() {
+  it('should launch Top Sellers Product detail page', function() {
     helper.switchToAngularPage();
+    helper.waitElementToBeClickable(productDetails.productImage);
     productDetails.productImage.click();
-    expect(productDetails.addToCartButton.isPresent()).toBe(true);
+    helper.waitForElementToBeVisible(productDetails.sizeChart);
+    expect(productDetails.sizeChart.isPresent()).toBe(true);
   });
 
 });

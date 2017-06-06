@@ -7,10 +7,11 @@ exports.config = {
   // urlTest: 'https://disneyworld.disney.go.com/shop-parks/resort-add-ons/',
   specs: ['./e2e/*/*.spec.js'],
   onPrepare: function() {
+    browser.driver.manage().window().maximize();
       jasmine.getEnv().addReporter(
         new Jasmine2HtmlReporter({
           savePath: 'reports/htmlreport',
-          fileName: 'ShopDisneyReport'
+          fileName: 'ShopDisneyReport',
         })
       );
    },

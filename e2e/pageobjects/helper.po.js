@@ -23,6 +23,11 @@ var Helper = function() {
 		browser.waitForAngularEnabled(true);
 	};
 
+	this.waitElementToBeClickable = function (elm) {
+  	browser.wait(this.EC.elementToBeClickable(elm), 15000);
+	};
+
+
 }
 
 module.exports = Helper;
