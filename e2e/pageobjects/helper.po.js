@@ -15,6 +15,14 @@ var Helper = function() {
 		});
 	};
 
+	this.switchToNonAngularPage = function() {
+		browser.waitForAngularEnabled(false);
+	};
+
+	this.switchToAngularPage = function() {
+		browser.waitForAngularEnabled(true);
+	};
+
 }
 
 module.exports = Helper;

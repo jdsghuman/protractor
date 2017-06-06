@@ -5,7 +5,7 @@ exports.config = {
   framework: 'jasmine',
   seleniumAddress: 'http://localhost:4444/wd/hub',
   // urlTest: 'https://disneyworld.disney.go.com/shop-parks/resort-add-ons/',
-  specs: ['spec.js'],
+  specs: ['./e2e/*/*.spec.js'],
   onPrepare: function() {
       jasmine.getEnv().addReporter(
         new Jasmine2HtmlReporter({
@@ -14,9 +14,13 @@ exports.config = {
         })
       );
    },
+   allScriptsTimeout: 15000,
    jasmineNodeOpts: {
     showColors: true, // Use colors in the command line report.
-    allScriptsTimeout: 15000
+  },
+  suites: {
+    home: 'e2e/home/**/*.spec.js',
+    product: 'e2e/product/**/*.spec.js'
   },
   params: {
     url: 'https://disneyworld.disney.go.com/shop-parks/resort-add-ons/'
