@@ -18,8 +18,10 @@ describe('Shop Disney Site', function() {
 		browser.manage().deleteAllCookies();
 	});
 
-	it('should have a logo in the menu', function() {
-		expect(homePage.logo.count()).toEqual(1);
+	it('should have the correct navbar content', function() {
+		expect(homePage.wdwMainSiteLogo.isPresent()).toBeTruthy();
+		expect(orderHistory.orderHistoryButton.isPresent()).toBeTruthy();
+		expect(myBagPage.myBag.isPresent()).toBeTruthy();
 	});
 
 	it('should show My Bag is empty', function() {
@@ -35,7 +37,7 @@ describe('Shop Disney Site', function() {
 		helper.switchToNonAngularPage();
 		helper.waitForElementToBeVisible(orderHistory.signInPage);
 		orderHistory.signInButton.click();
-		browser.wait(helper.EC.textToBePresentInElement($('.genericValidationErrorMessage'), 'Sorry, there are one or more errors on this page.'), 5000);
+		browser.wait(helper.EC.textToBePresentInElement(orderHistory.genericValidation, 'Sorry, there are one or more errors on this page.'), 5000);
 		browser.driver.navigate().back();
 		browser.wait(helper.EC.urlIs('https://disneyworld.disney.go.com/shop-parks/resort-add-ons/'), 5000);
 	});
