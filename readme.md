@@ -61,10 +61,11 @@ The path where the reports are created is setup in the config file
 Project Structure
 -----------------
 
-|-- Project-folder
+
+|-- project-folder
   |-- disney-tests
     |--e2e
-       |-- page-opbjects
+       |-- page-objects
            helper.po.js
            homepage.po.js
            mybagpage.po.js
@@ -73,6 +74,6 @@ Project Structure
        |-- home
            home.spec.js
            product.spec.js
-    
+
     |-- reports
       |-- htmlreport
