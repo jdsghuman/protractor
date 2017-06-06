@@ -24,5 +24,7 @@ exports.config = {
   },
   params: {
     url: 'https://disneyworld.disney.go.com/shop-parks/resort-add-ons/'
-  }
+  },
+  browserName: 'chrome',
+  directConnect: true
 };
