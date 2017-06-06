@@ -62,7 +62,9 @@ Project Structure
 -----------------
 
 
-  |-- project-folder
+
+  |-- projectfolder
+
     |-- disney-tests
 
       |--e2e
