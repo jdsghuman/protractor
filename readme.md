@@ -4,9 +4,9 @@ Shop Disney Protractor POC
 Setup
 ---------
 
-Install Java http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html
+Install Java [Install Java JDK](http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html)
 
-Install Node.js https://nodejs.org/en/
+Install Node.js [Nodejs download](https://nodejs.org/en/)
 
 Clone repo: {repository location}
 
@@ -28,14 +28,17 @@ Running Tests
 
 Note: Run tests from the project directory (navigate to project folder in terminal)
 
-- Navigate to project:
+### 1. Navigate to project:
+
 e.g. cd shop-disney-tests
 
-- Start Selenium Server
-** (Not required since test are setup with Direct Connect)
+### 2. Start Selenium Server
+
+...(Not required since test are setup with Direct Connect)
 
 webdriver-manager Start
 
-- Once the Selenium server is running, start tests in another tab:
+### 3. Once the Selenium server is running, start tests in another tab:
 
+... Ensure terminal is project directory
 protractor conf.js
