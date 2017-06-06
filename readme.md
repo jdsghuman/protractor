@@ -39,9 +39,9 @@ e.g. cd shop-disney-tests
 
 webdriver-manager Start
 
-### 3. Once the Selenium server is running, start tests in another tab (This command will run all the tests):
+### 3. Start tests in terminal (This command will run all the tests):
 
-   Ensure terminal is in the project directory
+   Ensure terminal is in the project folder
 
 protractor conf.js
 

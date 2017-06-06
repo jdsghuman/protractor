@@ -18,8 +18,8 @@ describe('New Arrivals', function() {
     helper.switchToAngularPage();
     helper.waitElementToBeClickable(productDetails.productImage);
     productDetails.productImage.click();
-    helper.waitForElementToBeVisible(productDetails.sizeChart);
-    expect(productDetails.sizeChart.isPresent()).toBe(true);
+    helper.waitForElementToBeVisible(productDetails.priceDisplay);
+    expect(productDetails.priceDisplay.isPresent()).toBe(true);
   });
 
 });
