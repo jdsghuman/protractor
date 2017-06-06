@@ -62,7 +62,7 @@ Project Structure
 -----------------
 
 
-
+<pre>
   |-- projectfolder
 
     |-- disney-tests
@@ -80,3 +80,4 @@ Project Structure
 
       |-- reports
         |-- htmlreport
+</pre>
