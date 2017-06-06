@@ -48,3 +48,12 @@ protractor conf.js
 ### 4. To run a specific suite
 
 protractor conf.js --suite {suite name}
+
+Reports
+-----------
+
+HTML reports for Jasmine2 and Protractor include screenshots and pass/skip/failure results for each tests
+
+The path where the reports are created is setup in the config file
+
+./{project folder}/reports/htmlreport/
