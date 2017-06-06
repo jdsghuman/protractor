@@ -41,7 +41,7 @@ webdriver-manager Start
 
 ### 3. Once the Selenium server is running, start tests in another tab (This command will run all the tests):
 
-   Ensure terminal is project directory
+   Ensure terminal is in the project directory
 
 protractor conf.js
 
