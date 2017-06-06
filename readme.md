@@ -62,18 +62,19 @@ Project Structure
 -----------------
 
 
-|-- project-folder
-  |-- disney-tests
-    |--e2e
-       |-- page-objects
-           helper.po.js
-           homepage.po.js
-           mybagpage.po.js
-           orderhistory.po.js
+  |-- project-folder
+    |-- disney-tests
 
-       |-- home
-           home.spec.js
-           product.spec.js
+      |--e2e
+         |-- page-objects
+             helper.po.js
+             homepage.po.js
+             mybagpage.po.js
+             orderhistory.po.js
 
-    |-- reports
-      |-- htmlreport
+         |-- home
+             home.spec.js
+             product.spec.js
+
+      |-- reports
+        |-- htmlreport
