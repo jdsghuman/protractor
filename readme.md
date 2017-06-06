@@ -15,24 +15,27 @@ Install npm to install Protractor globally (in Terminal):
 npm install -g protractor
 
 Install dependencies after cloning the report
-npm install (must be in the project directory)
+npm install (must be in the project directory in terminal)
 
 webdriver-manager is a helper tool to get an instance of a Selenium Server running.
 
 webdriver-manager update
 
-webdriver-manager start
+webdriver-manager start  --- (not required for current setup)
 
 Running Tests
 ------------
 
-Run tests from the project directory
+Note: Run tests from the project directory (navigate to project folder in terminal)
 
-Navigate to project
+- Navigate to project:
 e.g. cd shop-disney-tests
 
-Start Selenium Server
+- Start Selenium Server
+** (Not required since test are setup with Direct Connect)
+
 webdriver-manager Start
 
-Once the Selenium server is running, start tests in another tab:
+- Once the Selenium server is running, start tests in another tab:
+
 protractor conf.js
