@@ -22,14 +22,14 @@ Setup
 
    `webdriver-manager update`
 
-   `webdriver-manager start`  --- (not required for current setup)
+   `webdriver-manager start`  --- (not required for the current setup)
 
 Running Tests
 ------------
 
 Note: Run tests from the project directory (navigate to project folder in terminal)
 
-### 1. Navigate to project:
+### 1. Navigate to the project directory:
 
 e.g. `cd my-tests`
 
@@ -45,7 +45,7 @@ e.g. `cd my-tests`
 
 `protractor conf.js`
 
-### 4. To run a specific suite
+### 4. To run a specific suite (Suite names are setup in the conf.js file)
 
 `protractor conf.js --suite {suite name}`
 
