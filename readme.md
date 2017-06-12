@@ -31,7 +31,7 @@ Note: Run tests from the project directory (navigate to project folder in termin
 
 ### 1. Navigate to project:
 
-e.g. `cd shop-disney-tests`
+e.g. `cd my-tests`
 
 ### 2. Start Selenium Server
 
