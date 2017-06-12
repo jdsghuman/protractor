@@ -1,4 +1,4 @@
-Shop Disney Protractor POC
+Protractor Example for Angular & non-angular site
 =============
 
 Setup
