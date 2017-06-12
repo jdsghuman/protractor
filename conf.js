@@ -4,7 +4,6 @@ var Jasmine2HtmlReporter = require('protractor-jasmine2-html-reporter');
 exports.config = {
   framework: 'jasmine',
   seleniumAddress: 'http://localhost:4444/wd/hub',
-  // urlTest: 'https://disneyworld.disney.go.com/shop-parks/resort-add-ons/',
   specs: ['./e2e/*/*.spec.js'],
   onPrepare: function() {
     browser.driver.manage().window().maximize();
