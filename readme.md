@@ -8,7 +8,7 @@ Setup
 
 - Install Node.js [Nodejs download](https://nodejs.org/en/)
 
-- <code>Clone repo: `git clone https://github.com/jdsghuman/protractor-example.git`
+- Clone repo: `git clone https://github.com/jdsghuman/protractor-example.git`
 
 - Install Protractor globally (from Terminal):
 
@@ -65,7 +65,7 @@ Project Structure
 <pre>
   |-- projectfolder
 
-    |-- disney-tests
+    |-- my-tests
 
       |--e2e
          |-- page-objects
