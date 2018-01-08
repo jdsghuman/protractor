@@ -1,4 +1,4 @@
-Protractor Example for Angular & non-angular site
+Protractor Example for Angular & non-Angular site
 =============
 
 Setup
