@@ -10,7 +10,7 @@ exports.config = {
       jasmine.getEnv().addReporter(
         new Jasmine2HtmlReporter({
           savePath: 'reports/htmlreport',
-          fileName: 'ShopDisneyReport',
+          fileName: 'TestReport',
         })
       );
    },
@@ -23,7 +23,7 @@ exports.config = {
     product: 'e2e/product/**/*.spec.js'
   },
   params: {
-    url: 'https://disneyworld.disney.go.com/shop-parks/resort-add-ons/'
+    url: 'URL'
   },
   browserName: 'chrome',
   directConnect: true
